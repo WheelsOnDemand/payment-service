@@ -19,7 +19,7 @@ public class GlobalExceptionHandler {
 	@ResponseStatus(code = HttpStatus.BAD_REQUEST)
 	public ErrorDataResult<Object> handleValidationException(
 			MethodArgumentNotValidException methodArgumentNotValidException) {
-		Map<String, String> validationErrors = new HashMap<String, String>();
+		Map<String, String> validationErrors = new HashMap<>();
 		for (FieldError fieldError : methodArgumentNotValidException.getBindingResult().getFieldErrors()) {
 			validationErrors.put(fieldError.getField(), fieldError.getDefaultMessage());
 		}
