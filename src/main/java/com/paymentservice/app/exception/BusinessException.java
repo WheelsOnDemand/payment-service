@@ -1,4 +1,4 @@
-package com.example.payment_service.exception;
+package com.paymentservice.app.exception;
 
 public class BusinessException extends RuntimeException {
     /**

@@ -1,4 +1,4 @@
-package com.example.payment_service.service;
+package com.paymentservice.app.service;
 
 public interface PosCheckService {
 	boolean pay();

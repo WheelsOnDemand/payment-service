@@ -1,4 +1,4 @@
-package com.example.payment_service.dto;
+package com.paymentservice.app.dto;
 
 public class Messages {
 	

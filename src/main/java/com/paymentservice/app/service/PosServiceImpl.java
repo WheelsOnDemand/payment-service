@@ -1,4 +1,4 @@
-package com.example.payment_service.service;
+package com.paymentservice.app.service;
 
 import org.springframework.stereotype.Service;
 

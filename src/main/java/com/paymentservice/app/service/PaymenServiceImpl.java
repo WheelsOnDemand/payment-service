@@ -1,15 +1,16 @@
-package com.example.payment_service.service;
+package com.paymentservice.app.service;
 
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import com.example.payment_service.dto.Messages;
-import com.example.payment_service.dto.request.CreatePaymentRequest;
-import com.example.payment_service.dto.response.CreatePaymentResponse;
-import com.example.payment_service.exception.BusinessException;
-import com.example.payment_service.model.Payment;
-import com.example.payment_service.repository.PaymentRepository;
+import com.paymentservice.app.config.ModelMapperService;
+import com.paymentservice.app.dto.Messages;
+import com.paymentservice.app.dto.request.CreatePaymentRequest;
+import com.paymentservice.app.dto.response.CreatePaymentResponse;
+import com.paymentservice.app.exception.BusinessException;
+import com.paymentservice.app.model.Payment;
+import com.paymentservice.app.repository.PaymentRepository;
 
 import lombok.AllArgsConstructor;
 

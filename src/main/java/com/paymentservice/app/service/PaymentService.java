@@ -1,7 +1,7 @@
-package com.example.payment_service.service;
+package com.paymentservice.app.service;
 
-import com.example.payment_service.dto.request.CreatePaymentRequest;
-import com.example.payment_service.dto.response.CreatePaymentResponse;
+import com.paymentservice.app.dto.request.CreatePaymentRequest;
+import com.paymentservice.app.dto.response.CreatePaymentResponse;
 
 public interface PaymentService {
 

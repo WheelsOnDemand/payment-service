@@ -1,4 +1,4 @@
-package com.example.payment_service;
+package com.paymentservice.app;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 
-import com.example.payment_service.service.ModelMapperService;
-import com.example.payment_service.service.ModelMapperServiceImpl;
+import com.paymentservice.app.config.ModelMapperService;
+import com.paymentservice.app.config.ModelMapperServiceImpl;
 
 @SpringBootApplication
 @EnableFeignClients

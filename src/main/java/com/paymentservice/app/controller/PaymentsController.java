@@ -1,4 +1,4 @@
-package com.example.payment_service.controller;
+package com.paymentservice.app.controller;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.payment_service.dto.request.CreatePaymentRequest;
-import com.example.payment_service.dto.response.CreatePaymentResponse;
-import com.example.payment_service.service.PaymentService;
+import com.paymentservice.app.dto.request.CreatePaymentRequest;
+import com.paymentservice.app.dto.response.CreatePaymentResponse;
+import com.paymentservice.app.service.PaymentService;
 
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

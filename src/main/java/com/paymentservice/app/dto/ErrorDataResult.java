@@ -1,4 +1,4 @@
-package org.springframework.web.bind.annotation;
+package com.paymentservice.app.dto;
 
 public class ErrorDataResult<T> extends DataResult<T> {
 
