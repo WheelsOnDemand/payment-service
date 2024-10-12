@@ -12,7 +12,7 @@ import com.paymentservice.app.dto.request.CreatePaymentRequest;
 import com.paymentservice.app.dto.response.CreatePaymentResponse;
 import com.paymentservice.app.service.PaymentService;
 
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import lombok.AllArgsConstructor;
 
 @RestController
