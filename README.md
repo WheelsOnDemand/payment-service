@@ -1,7 +1,7 @@
 
 ## Payment Service
 
-This is a simple payment service that allows you to create, read, update, and delete payments. 
+Payment service allows you to create, read, update, and delete payments. 
 
 <table>
     <thead>
