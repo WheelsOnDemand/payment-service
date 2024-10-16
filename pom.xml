@@ -125,7 +125,7 @@
 				<version>3.4.1</version>
 				<configuration>
 					<to>
-						<image>wheelsondemand/paymentservice</image>
+						<image>${REPO_URL}/paymentservice</image>
 					</to>
 				</configuration>
 			</plugin>
