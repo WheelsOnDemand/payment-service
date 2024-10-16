@@ -18,7 +18,7 @@ This is a simple payment service that allows you to create, read, update, and de
         </tr>
         <tr>
             <td>$\textcolor{cornflowerblue}{GET}$</td>
-            <td>/payments/1</td>
+            <td>/payments/{id}</td>
         </tr>
         <tr>
             <td>$\textcolor{orange}{POST}$</td>
@@ -26,11 +26,11 @@ This is a simple payment service that allows you to create, read, update, and de
         </tr>
         <tr>
             <td>$\textcolor{violet}{PUT}$</td>
-            <td>/payments/1</td>
+            <td>/payments/{id}</td>
         </tr>
         <tr>
             <td>$\textcolor{crimson}{DELETE}$</td>
-            <td>/payments/1</td>
+            <td>/payments/{id}</td>
         </tr>
     </tbody>
 </table>
